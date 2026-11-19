@@ -45,5 +45,4 @@ if st.button("Generate AI Response", type = "primary"):
                      {"role" : "user",
                      "content" : backgroound + task }],
          temprature = 0.7,
-         max_tokens = 2000
-       ),
+         max_tokens = 2000)
