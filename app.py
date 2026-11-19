@@ -2,7 +2,7 @@ import streamlit as st
 from groq import Groq
 st.set_page_config(page_title="AI Interview Assistant",page_icon='🫡',layout='centered')
 st.title("AI Interview Assistant")
-st.caption("It is a platform for getting information")
+st.caption("this is built by mrAshok kumar")
 try:
     client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 except (KeyError,FileNotFoundError):
